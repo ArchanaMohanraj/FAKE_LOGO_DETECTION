@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: rgba(237, 235, 240, 0.324);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    line-height: 5;
+    letter-spacing: 4px;
+    align-content: center;
+    padding: 0vmin;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+form {
+    background: $white;
+    padding: 3em;
+    height: 250px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    ;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: :content;
+    transition: all 0.2s ease-in-out;
+    font: size:8em;
+}
+
+input {
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font: size 3em;
+}
+
+:hover {
+
+    box-shadow: 4px 4px 60px 8px rgba(237, 232, 232, 0.2);
+}
+
+[type="file"] {
+
+    &:focus {
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+[type="button"] {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+
+    :hover {
+        cursor: pointer;
+    }
+
+    :active {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+
+
+.drop {
+    background: rgba(255, 255, 255, 0.3);
+    ;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    ;
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    transition: all 0.2s ease;
+
+    &-1 {
+        height: 80px;
+        width: 80px;
+        top: -20px;
+        left: -40px;
+        z-index: -1;
+    }
+
+    &-2 {
+        height: 80px;
+        width: 80px;
+        bottom: -30px;
+        right: -10px;
+    }
+
+    &-3 {
+        height: 100px;
+        width: 100px;
+        bottom: 120px;
+        right: -50px;
+        z-index: -1;
+    }
+
+    &-4 {
+        height: 120px;
+        width: 120px;
+        top: -60px;
+        right: -60px;
+    }
+
+    &-5 {
+        height: 60px;
+        width: 60px;
+        bottom: 170px;
+        left: 90px;
+        z-index: -1;
+    }
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
